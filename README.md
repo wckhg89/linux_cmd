@@ -21,3 +21,6 @@ $cat /proc/meminfo
 
 DISK 용량 확인
 $df -h
+
+자바힙 메모리확인
+$jmap -heap {프로세스ID}
